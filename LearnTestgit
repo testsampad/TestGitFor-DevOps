@@ -5,10 +5,11 @@ git config --global user.name "samapd pradhan"
 learnTestgot1
 
 git init
-git add [Filename] || -A
-git status
-git commit
-git remote add origin repoName
+git add [Filename] || -A -  to add all the file ( in project to Git)
+git status - Status of the file whether files have benn addedd or not.
+git commit - Git understand the above file.
+git remote add origin repoName - ( reponame? Link of GitHub to add the files into cloud)
 git push origin master
 git clone repoName
 git pull origin master
+git commit -m "message name" ( message ? what changes we are going to do) - to take the Snapshot
